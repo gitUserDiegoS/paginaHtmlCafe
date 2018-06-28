@@ -1,0 +1,179 @@
+/*estilo de body*/
+body{
+    background-color: #f2f2f2;
+    color: #43525A;
+
+}
+
+/*estilo para navegacion*/
+.navegacion{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.navColor{
+    background-color: #f2f2f2;
+}
+
+/*especificaciones de logo*/
+.logoModulo{
+    flex: 0 0 14.28571rem;
+    width: 14.28571rem;
+}
+
+
+/*especificaiones para el nav*/
+
+.navcontainer{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 1.42857rem;
+    margin: 0 aut
+}
+
+.navcontainerfont{
+    padding: 2.14286rem 0.71429rem;
+    box-sizing: border-box;
+    color: #43525A;
+    font-size: 1.14286rem;
+}
+
+.divNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#primIzquierda{
+    
+    margin-top: 107px;
+    margin-left: 20px;
+        flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 25rem;
+    width: 100%;
+    margin: 15vh 5.71429rem 15vh 0;
+    display: block;
+}
+/* fin especificaciones nav*/
+#principal{
+    font-family: "Muli", sans-serif;
+
+}
+
+.position{
+    position: absolute;
+width: auto;
+height: auto;
+top: 6.143rem;
+left: 34%;
+}
+
+
+/*contenedor de botones*/
+ .botonesDesk{
+    display: flex;
+    align-items: center;
+}
+
+/*css boton configure*/
+.configure{
+    width: 136px;
+    margin-left: 21px;    
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #28A5BE;
+    color: #fff;
+    padding: 1.14286rem 1.71429rem;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);    
+    font-size: 1.14286rem;
+
+}
+ /*css boton learn*/
+
+.learn{
+    padding: 0.85714rem 1.71429rem;
+    font-size: 1.14286rem;    
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 0.71429rem 1.42857rem;    
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #2D2D2D;
+    color: #fff;
+}
+
+/*encabezados h1*/
+h1{
+    font-family: "Muli", sans-serif;
+    font-weight: normal;
+    font-size: 2.9rem;
+    margin: 0 0 1.42857rem;
+    line-height: 3.4rem;
+    }  
+
+p{
+    display: block;
+    font-family: "Muli", sans-serif;    
+    font-size: 1.28571rem;
+    line-height: 154%;
+    margin: 0 0 2.14286rem;
+    font-size: 1.14286rem;
+    color: #43525A;    
+    position: relative;
+    z-index: 1;
+    
+}
+
+/*css aplicable a sesion dos*/
+.seccionDos{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1.42857rem;
+    margin: 0 auto;
+    top: 0;
+    margin-bottom: 0;
+    display: block;
+    position: relative;
+    top: 84px;
+    margin-bottom: 0;
+    display: flex;
+
+}
+
+/*img de seccion dos*/
+.imgDos{
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    width: 34.28571rem;
+}
+
+/*divSegunda seccion derecha*/
+.contentDivSD{
+    background-color: white;
+    padding: 4.28571rem;
+}
+    
+    
+
+@media (max-width: 799px){
+.seccionDos{
+    display: block;
+}    
+
+.imgDos{
+    width: 100%;
+}
+}
